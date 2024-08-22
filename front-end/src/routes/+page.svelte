@@ -16,11 +16,13 @@
     });
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-
 <div>
-    <h1> Message from Go Backend: </h1> 
-    <p>{message}</p>
+    <h1>Welcome to SvelteKit</h1>
+    
+    <div>
+        <h1> Message from Go Backend: </h1> 
+        <p>{message}</p>
+    </div>
 </div>
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
