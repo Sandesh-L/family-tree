@@ -26,5 +26,6 @@ export class MemberNode {
         this.parents = member.parents;
         this.spouses = member.spouses;
         this.children = member.children;
+
     }
 }

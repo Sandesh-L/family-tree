@@ -11,7 +11,7 @@ type customAttributes struct {
 	Gender string `json:"gender"`
 }
 
-type Message struct {
+type Person struct {
 	ID         int              `json:"id"`
 	NodeType   string           `json:"nodeType"`
 	Label      string           `json:"label"`
@@ -27,12 +27,12 @@ type Message struct {
 func main() {
 	http.HandleFunc("/api/message", func(w http.ResponseWriter, r *http.Request) {
 
-		msg := Message{
+		msg := Person{
 			ID:         1,
 			NodeType:   "Person",
 			Label:      "Ancestor",
 			FirstName:  "John",
-			MiddleName: "",
+			MiddleName: "d",
 			LastName:   "Doe",
 			Parents:    []int{2, 3},
 			Spouses:    []int{4},
