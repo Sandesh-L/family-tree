@@ -1,4 +1,4 @@
-# family-tre
+# family-tree
 
 ⚠️ This website is a work in progress ⚠️
 
